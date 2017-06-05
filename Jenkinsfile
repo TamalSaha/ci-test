@@ -1,4 +1,4 @@
 node{
-    echo '${sha1}'
+    echo "${sha1}"
 }
   
