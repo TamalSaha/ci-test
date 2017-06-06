@@ -1,4 +1,4 @@
 node{
-    echo "${env.sha1}"
+    println("Hello jenkins")
 }
   
