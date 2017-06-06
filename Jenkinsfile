@@ -1,4 +1,6 @@
 node{
-    println("Hello jenkins")
+    step("test"){
+         println("Hello jenkins")
+    }
 }
   
