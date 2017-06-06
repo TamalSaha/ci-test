@@ -1,5 +1,5 @@
 node{
-    step("test"){
+    stage("test"){
          println("Hello jenkins")
     }
 }
