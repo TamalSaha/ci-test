@@ -1,6 +1,10 @@
-node{
-    stage("test"){
-         println("Hello jenkins")
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
-  
